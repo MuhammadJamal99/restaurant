@@ -29,7 +29,7 @@ export default {
   data: function () {
     return {
       githubRepoUrl:
-        "https://github.com/MuhammadJamal99/restaurant",
+        "https://github.com/MuhammadJamal99/restaurant.git",
     };
   },
   components: {

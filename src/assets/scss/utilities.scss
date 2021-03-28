@@ -1,0 +1,40 @@
+@import "./variables.scss";
+
+.centering-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn {
+  text-decoration: none;
+  color: $secondColor;
+  background-color: $firstColor;
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: color 0.25s, background-color 0.25s;
+
+  &:hover {
+    color: $firstColor;
+    background-color: $secondColor;
+  }
+}
+
+.page {
+  background-color: #f4f4f4;
+
+  &.dark-mode {
+    background-color: #000;
+    .page-title {
+      color: $darkMode-firstColor;
+    }
+  }
+
+  padding: 2rem 0;
+  .page-title {
+    padding-top: 2rem;
+    margin: 0;
+    text-align: center;
+    font-size: 2.2rem;
+  }
+}
